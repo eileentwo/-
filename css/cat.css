@@ -1,0 +1,189 @@
+ .wrap {
+	margin: 0 auto;
+	width: 500px;
+	height: 400px;
+	box-shadow:0 0 0 5px #000;
+	border-radius: 45% 45% 50% 50%;
+	background-color: #184bf2;
+	position: relative;
+	z-index: -9999;
+}
+.inner {
+	width: 400px;
+	height: 350px;
+	background-color: #fff;
+	box-shadow:0 0 0 4px #000;
+	border-radius: 40% 40% 50% 50%;
+	position: absolute;
+	top:50px;
+	left: 50px;
+	z-index: -999;
+}
+header {
+	margin-left: -80px;
+	position: absolute;
+	left: 50%;
+	top: 50px;
+}
+.Eye {
+	float: left;
+	width: 80px;
+	height: 100px;
+	background-color: #fff;
+	border: 3px solid #000;
+	border-radius: 50% 50% 45% 45%;
+}
+.leftEye,
+.rightEye {
+	width: 6px;
+	height: 10px;
+	background-color: #fff;
+	box-shadow:0 0 0 10px #000;
+	border-radius: 15px/30px;
+	position: absolute;
+	top: 70px;
+}
+
+.leftEye {
+	left: 60px;
+}
+
+.rightEye {
+	left: 105px;
+}
+section {
+	position: absolute;
+	left: 50%;
+	top: 50px;
+}
+.nouse {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	box-shadow:0 0 0 3px #000;
+	border-radius:50%;
+	position: absolute;
+	left:-9px;
+	top: 85px;
+}
+.nouse1 {
+	width: 12px;
+	height: 8px;
+	background-color: #fff;
+	border-radius:12px/8px;
+	position: absolute;
+	left:10px;
+	top: 5px;
+}
+.beard,
+.beard1,
+.beard2,
+.beard3 {
+	width: 3px;
+	height: 90px;
+	background-color: #000;
+	transform-origin:0 0px;
+	position: absolute;
+	top: 115px;
+}
+
+.beard {
+	left:5px;
+}
+
+.beard1,
+.beard2,
+.beard3 {
+	height: 150px;
+}
+.leftbeard {
+	position: absolute;
+	top: 20px;
+	left:-50px;
+	transform-origin:0 0px;
+}
+
+.rightbeard {
+	position: absolute;
+	top: 20px;
+	left:50px;
+	transform-origin: 150px 50px;
+}
+.mouth1 {
+	width: 140px;
+	height:70px;
+}
+.mouth .mouth1 {
+	height: 70px;
+	background-color: #f00;
+	border-radius:0 0 140px 140px;
+	position: absolute;
+	top:190px;
+	left: -65px;
+} 
+.tooth,
+.tooth1 {
+	width: 20px;
+	height: 25px;
+	background-color: #fff;
+	border-radius:0 0  30% 30%;
+	position: absolute;
+	left: 50px;
+	top: 5px;
+	
+}
+
+
+.mouth .tooth1 {
+	position: absolute;
+	left: 70px;
+} 
+.red {
+	width: 300px;
+	height: 20px;
+	background-color: #f00;
+	box-shadow: 0 0 0 3px #000;
+	border-radius:5px/10px;
+	position: absolute;
+	top: 328px;
+	left: 50px;
+}
+.yellow {
+	width: 80px;
+	height: 80px;
+	background-color: yellow;
+	box-shadow: 0 0 0 3px #000;
+	border-radius:50%;
+	position: absolute;
+	top: 10px;
+	left: 110px;
+}
+.yellow1 {
+	width: 82px;
+	height: 10px;
+	background-color: yellow;
+	box-shadow: 0 0 0 3px #000;
+	border-radius:5px/10px;
+	position: absolute;
+	top: 15px;
+	left: -1px;
+}
+
+.yellow2 {
+	width:12px;
+	height:12px;
+	background-color: #3C3B4B;
+	box-shadow: 0 0 0 3px #000;
+	border-radius:50%;
+	position: absolute;
+	top: 40px;
+	left:36px;
+}
+.yellow3 {
+	width:3px;
+	height:28px;
+	background-color: #000;
+	position: absolute;
+	top: 52px;
+	left:40px;
+}
